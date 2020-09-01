@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+ float   e1,e2,e3,pc,f,p,n;
+    cout<<"ingrese la nota del primer parcial"<<endl;
+    cin >>e1;
+    cout<<"ingresar la nota de su segundo parcial"<<endl;
+    cin>>e2;
+    cout<<"ingrese la nota de su tercer parcial"<<endl;
+    cin>>e3;
+    pc=(e1+e2+e3)/3;
+    cout<<"ingrese la nota de su examen final"<<endl;
+    cin>>f;
+    cout<<"ingrese la nota de su proyecto final"<<endl;
+    cin>>p;
+    n=(pc*40/100)+(f*40/100)+(p*20/100);
+    cout<<"la nota final es de:";
+    cout<<n;
+    return 0;
