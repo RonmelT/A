@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string apno;
+    float hrtr, tahr,subt,SuelIVA,total;
+    cout<<"calculos de pagos/n/n";
+    cout <<"nombres:/t";
+    cin>>apno;
+    cout<<endl<<endl<<"horas trabajadas:/t";
+    cin>>hrtr;
+    if (subt<=0)
+    cout<<"no trabaja"<<endl; else
+    {cout<<"tarifa por hora:/t";
+    cin>>tahr;
+    subt=hrtr*tahr;
+    if(subt>8272)
+    SuelIVA=subt;
+    total=subt-SuelIVA;
+    cout<<"el sueldo neto sin IVA es:/t"<<subt<<endl;
+    cout<<"el sueldo neto luego del IVA es:/t"<<total<<endl<<endl;
+    }cin.ignore(); 
+     return 0;
+}
