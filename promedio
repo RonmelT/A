@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,e,f,g;
+    cout<< "ingrese el primer operando: ";
+    cin>>a;
+     cout<< "ingrese el segundo operando: ";
+    cin>>b;
+    c=a+b;
+    d=a-b;
+    e=a*b;
+    f=a/b;
+    g=a%b;
+     cout<< "el resultado de la suma : "<<c<<endl;
+     cout<< "el resultado de la resta : "<<d<<endl;
+     cout<< "el resultado de la multiplicacion : "<<e<<endl;
+     cout<< "el resultado de division : "<<f<<endl;
+     cout<< "el resto : "<<g<<endl;
