@@ -1,0 +1,21 @@
+# incluye  < iostream >
+# incluye  " conio.h "
+# incluye < math.h >
+
+usando el  espacio de nombres  std ;
+
+int  main () {
+	diámetro del flotador ;
+	cout << " Ingrese el diamtero de la esfera: " ;
+	cin >> diametro;
+	doble  pi = 3,1416 , volumen;
+	área de flotación , perimetro;
+	área = ( pi / 4 ) * diametro * diametro;
+	cout << " El area de la esfera es: " << area << endl;
+	volumen = ( 4 / 3.0 ) * pi * ((diametro * diametro * diametro) / 8.0 );
+	cout << " el volumen de la esfera es: " << volumen << endl;
+	perimetro = 2 * pi * (diametro / 2.0 );
+	cout << " el perimetro de la esfera es: " << perimetro;
+
+    return  0 ;
+}
